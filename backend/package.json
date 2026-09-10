@@ -18,3 +18,5 @@
     "uuid": "^10.0.0"
   }
 }
+,
+"start": "node index.js"
