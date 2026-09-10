@@ -273,6 +273,6 @@ export default function ContextApiProvider({ children }) {
       }}
     >
       {children}
-    </contextApi.Provider>
+    </contextApi.Provider> 
   );
 }
