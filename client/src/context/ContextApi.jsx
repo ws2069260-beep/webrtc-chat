@@ -6,7 +6,8 @@ const contextApi = createContext(null);
 export const useContextApi = () => useContext(contextApi);
 
 const getSocket = () => {
-  return socketio("https://signallingserver.bytebreeze.xyz/", {
+  return socketio(" https://webrtc-chat-vct8.onrender.com
+", {
     secure: true,
     // rejectUnauthorized: false, // this allows self-signed certificates
   });
